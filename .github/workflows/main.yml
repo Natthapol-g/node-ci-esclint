@@ -30,7 +30,7 @@ jobs:
         run: chmod +x ./node_modules/.bin/mocha
 
       - name: Run ESLint
-        run: npm lint
+        run: npm run lint
 
       - name: Run tests
         run: npm test
