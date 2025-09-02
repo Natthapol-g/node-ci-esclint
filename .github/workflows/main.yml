@@ -29,5 +29,8 @@ jobs:
       - name: Set executable permissions for Mocha
         run: chmod +x ./node_modules/.bin/mocha
 
+      - name: Run ESLint
+        run: npm lint
+
       - name: Run tests
         run: npm test
